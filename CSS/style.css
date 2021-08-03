@@ -130,5 +130,11 @@ h3:hover{
 .trangtruyen{
     color: white;
     margin-left: 100px;
+    display: inline;
+}
+.trangtruyen img{
+    width: 891px;
+    height: 1300px;
+    padding-left: 200px;
 }
 
