@@ -1,5 +1,7 @@
 body{
     font-family:'Pacifico', cursive;
+    background-color: white;
+    background-image: url(../IMG/UI/81X74FHprtL.jpg);
 }
 
 #Khudautrang{
@@ -13,18 +15,24 @@ body{
     border-radius: 30px;
 }
 .dangnhap{
-    background-color: orangered;
+    background-color: #eb8334;
     margin:20px 20px 10px 200px ;
     border-radius: 5px;
     color: white;
     padding: 5px;
 }
+.dangnhap:hover{
+    background-color:  #eb9b34;
+}
 .dangki{
-    background-color: blue;
+    background-color: #3260a8;
     margin:20px 20px 10px 10px ;;
     border-radius: 5px;
     color: white;
     padding: 5px;
+}
+.dangki:hover{
+    background-color:  lightblue;
 }
 .Khuthu{
     text-align: center;
@@ -51,11 +59,13 @@ a{
     height: 190px;
     margin: 5px;
     position: relative;
-
+    border-radius: 10px;
 }
 .khoanhchinh{
     display: flex;
     margin-left: 50px;
+    background-color: #d5e0db;
+    border-radius: 15px;
 }
 
 
@@ -64,6 +74,7 @@ a{
     height: 400px;
     margin: 5px;
     position: relative;
+    border-radius: 10px;
     
 
 }
@@ -73,15 +84,48 @@ h1{
 }
 
 .trangtong{
-    margin-left: 100px;
+    margin-left: 20px;
+    background-color: #d5e0db;
 }
 h3{
     position: absolute;
     z-index: 100;
-    color: white;
+    color: orangered;
     margin-top: 160px;
     margin-left: 20px;
 }
 .thanhchon:hover {
     background-color:#eb9b34;
   }
+h3:hover{
+
+    color: white;
+}
+.truyennho a img {
+    width: 180px;
+    height: 250px;
+    border-radius: 15px;
+    display: block;
+}
+.dong1{
+    display: flex;
+}
+.dong2{
+    display: flex;
+}
+.dong3{
+    display: flex;
+}
+.dong1 a img{
+    margin: 17px;
+}
+
+.dong2 a img{
+    margin: 17px;
+}
+
+.dong3 a img{
+    margin: 15px;
+}
+
+

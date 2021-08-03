@@ -1,0 +1,58 @@
+header{
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(251, 165, 95, 0.752);
+    margin-left:450px ;
+    margin-right: 450px; ; 
+    padding-bottom: 100px;  
+    padding-top: 50px;
+    
+}
+
+body{
+    background-image:url(../IMG/Home/Hình-phong-cảnh-Anime-scaled.jpg) ;
+    background-size: cover ;
+    font-family: 'Lobster', cursive; 
+    padding-top: 50px;
+}
+.btn{
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px 0px; 
+    cursor: pointer;
+    color: white;
+}
+.email{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10PX;
+}
+.password{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+.error{
+    color: red;
+  }
+  .cursor-pointer{
+    cursor: pointer;
+  }
+  
+button{
+    background-image: url(../IMG/UI/jojos-bizarre-adventure-part-5-golden-wind-vol-01-gn-manga.jpg);
+
+}
+button:hover{
+    background-image: url(../IMG/UI/91Qs9DaFZL-1024x1396.jpeg);
+    color:skyblue;
+}
+h1{
+    color: orangered;
+}
+h1:hover{
+    color: White;
+}
