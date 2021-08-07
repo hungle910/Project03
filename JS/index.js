@@ -13,6 +13,16 @@ const init =() =>{
 
 
       firebase.auth().onAuthStateChanged(function(user){
-          
+          if(user && user.emailVerified){
+            model.currentUser={
+              displayName: user.displayName,
+              email:user.email
+            };
+            visualViewport.setActiveScreen('homeScreen')
+          }
+          else{
+            view.setActiveScreen('loginScreen');
+            alert("Check hộ email cái!")
+          }
       })
 }
