@@ -22,7 +22,7 @@ const init =() =>{
           }
           else{
             view.setActiveScreen('loginScreen');
-            alert("Check hộ email cái!")
+            alert(" pls Check ur email !")
           }
       })
 }

@@ -23,10 +23,10 @@ home.addEventListener("click",()=>{
 }
 
 
-view.billyBat.chapter = (chapter) => {
+view.chainSawMan.chapter = (chapter) => {
   switch (chapter) {
     case "chap1":
-      document.getElementById("app").innerHTML = components.billyBat.chap1;
+      document.getElementById("app").innerHTML = components.chainSawMan.chap1;
       changeChap();
       navBar()
      
@@ -36,7 +36,7 @@ view.billyBat.chapter = (chapter) => {
       break;
 
     case "chap2":
-      document.getElementById("app").innerHTML = components.billyBat.chap2;
+      document.getElementById("app").innerHTML = components.chainSawMan.chap2;
       console.log(temp);
       changeChap()
       
@@ -53,8 +53,8 @@ view.setActiveScreen = (screenName) => {
     case "homeScreen":
       console.log(view);
       document.getElementById("app").innerHTML = components.homeScreen;
-      document.getElementById('billyBat').addEventListener('click', () => {
-        view.billyBat.chapter('chap1');
+      document.getElementById('chainsawman').addEventListener('click', () => {
+        view.chainSawMan.chapter('chap1');
       })
       break;
 
