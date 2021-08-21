@@ -9,6 +9,7 @@ const init = () => {
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
 
   console.log("đã chạy hàm init");
 

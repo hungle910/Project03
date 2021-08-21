@@ -1,4 +1,4 @@
-const cmtList = document.getElementById('cmtmoi');
+const commentlist = document.getElementById('cmtmoi');
 const form = document.querySelector("#binhluan");
 
 function renderCmt(doc) {

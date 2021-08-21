@@ -56,9 +56,32 @@ view.setActiveScreen = (screenName) => {
     case "homeScreen":
       console.log(view);
       document.getElementById("app").innerHTML = components.homeScreen;
-      document.getElementById('chainSawMan').addEventListener('click', () => {
+      document.getElementById('anhchinh').addEventListener('click', () => {
         view.chainSawMan.chapter('chap1');
       })
+
+      document.getElementById("signIn").
+      addEventListener("click",()=>{
+        view.setActiveScreen("loginScreen");
+      });
+
+      document.getElementById("signUp").
+      addEventListener("click",()=>{
+        view.setActiveScreen("registerScreen");
+      });
+
+
+      document.getElementById("signUp").
+      addEventListener("click",()=>{
+        view.setActiveScreen("registerScreen");
+      });
+
+      document.getElementById("thaoluan").
+      addEventListener("click",()=>{
+        view.setActiveScreen("aboutScreen");
+      });
+
+
       break;
 
     case "loginScreen":

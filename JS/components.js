@@ -20,7 +20,7 @@ components.homeScreen =
 <div class="Khuthu">
  <div id="home" class="thanhchon" >Trang chủ</div>
  <div class="thanhchon">Thể loại</div>
- <div id="about" class="thanhchon">Thảo luận</div>
+ <div id="thaoluan" class="thanhchon">Thảo luận</div>
  <div class="thanhchon">Tìm truyện</div>
  <div class="thanhchon"><a href="https://www.facebook.com/trangvovanantromanhcutbu">Fanpage</a></div>
 </div>
@@ -137,7 +137,7 @@ components.loginScreen = `<link rel="stylesheet" href="../css/login.css">
 </div>
 
 <span class="cursor-pointer" id="redirect-to-register">
-  Không có tài khoản? <p style="text-decoration: none;color: orangered; Bấm vào đây để đăng kí  </p>
+  Không có tài khoản?  Bấm vào đây để đăng kí  </p>
 </span>  
   </form>
 </Header>
@@ -146,6 +146,7 @@ components.loginScreen = `<link rel="stylesheet" href="../css/login.css">
 
 
 components.registerScreen =`
+<link rel="stylesheet" href="../CSS/register.css">
 <header>
         <H1>Đăng Kí</H1>
         <div class="input-name-wrapper">
