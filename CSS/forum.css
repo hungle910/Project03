@@ -1,0 +1,51 @@
+.comment{
+    
+    padding: 10px;
+    color: black;
+    background-color: #dbd5c5;
+    margin-bottom: 10px;
+}
+.user{
+    color: blue;
+}
+.binhluan{
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    height: 1000px;
+    background-color: white;
+    border: black 1px solid;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+button{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: red;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+li:nth-child(even){
+    padding: 20px;
+}
+li span{
+    display: block;
+}
+li span:nth-child(2){
+    font-size: 16px;
+    margin-top:5px ;
+    
+}
+li span:nth-child(1){
+    font-size: 16px;
+    margin-top:5px ;
+    color: blue;
+}

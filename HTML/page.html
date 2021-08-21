@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/comment.css">
 </head>
 <body>
     <div id="Khudautrang">
@@ -26,12 +27,22 @@
 
 
     <div class="Khuthu">
-         <div class="thanhchon">Trang chủ</div>
+         <div id="home" class="thanhchon">Trang chủ</div>
          <div class="thanhchon">Thể loại</div>
-         <div class="thanhchon">Thảo luận</div>
+         <div id="about" class="thanhchon">Thảo luận</div>
          <div class="thanhchon">Tìm truyện</div>
          <div class="thanhchon"><a href="https://www.facebook.com/trangvovanantromanhcutbu">Fanpage</a></div>
     </div>
+
+
+
+    <div id="thanhchuyenchap"><span>
+        <select name="dob" id="#">
+            <option value="1" >Chap 1</option>
+           <a href=""><option value="2"> <a href="../html/home.html">Chap 2</a> </option></a>
+        </select> </span>
+        </div>
+
 
 
 
@@ -90,7 +101,21 @@
          
         
 
-
+    
+         <div class="binhluan">
+        
+        
+            <form id="binhluan">
+                <input type="text" name="user" placeholder="tên của bạn">
+                <div class="chobinhluan">
+                    <input style="width: 900px;position: relative;padding: 15px;margin-bottom: 10px;" type="text" name="message" placeholder="bình luận">
+                </div>
+                <button type="submit">
+                    
+                </button>
+    
+                <ul id="cmtmoi"></ul>
+            </form>
 
 
 

@@ -137,4 +137,14 @@ h3:hover{
     height: 1300px;
     padding-left: 200px;
 }
-
+#thanhchuyenchap {
+    margin-top: 425px ;
+     position: fixed; 
+    background-color: darkslategrey;
+    padding: 10px;
+    padding-right: 500px
+  }
+select {
+    width: 350px;
+    margin-left: 500px;
+  }

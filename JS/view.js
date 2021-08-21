@@ -1,24 +1,28 @@
 const view = {};
-view.billyBat = {};
+view.chainSawMan = {};
 let temp;
-  
 
-function navBar(){
-  const signIn= document.getElementById("signIn");
-  const home = document.getElementById("home");
-  const signUp =document.getElementById("signUp")
-  const about =document.getElementById("about")
-  
 
-signIn.addEventListener("click",()=>{
-  view.setActiveScreen('loginScreen');
-})
- 
-home.addEventListener("click",()=>{
-  view.setActiveScreen('homeScreen');
+function LR(){
+  const signUp = document.getElementById("signUp")
+  const signIn = document.getElementById("signIn");
+  
+  signUp.addEventListener("click", () => {
+    view.setActiveScreen('registerScreen');
+  })
+
+  signIn.addEventListener("click", () => {
+    view.setActiveScreen('loginScreen');
+  })
 }
-)
 
+function navBar() {
+  const home = document.getElementById("home");
+
+home.addEventListener("click", () => {
+    view.setActiveScreen('homeScreen');
+  }
+  )
 
 }
 
@@ -29,8 +33,7 @@ view.chainSawMan.chapter = (chapter) => {
       document.getElementById("app").innerHTML = components.chainSawMan.chap1;
       changeChap();
       navBar()
-     
-        
+      
 
 
       break;
@@ -39,10 +42,10 @@ view.chainSawMan.chapter = (chapter) => {
       document.getElementById("app").innerHTML = components.chainSawMan.chap2;
       console.log(temp);
       changeChap()
+      navBar();
       
-      // console.log(chapterName.chap);
-      // changeChap = document.getElementById('changeChap');
-      // console.log(changeChap);
+
+      
       break;
   }
 }
@@ -53,12 +56,13 @@ view.setActiveScreen = (screenName) => {
     case "homeScreen":
       console.log(view);
       document.getElementById("app").innerHTML = components.homeScreen;
-      document.getElementById('chainsawman').addEventListener('click', () => {
+      document.getElementById('chainSawMan').addEventListener('click', () => {
         view.chainSawMan.chapter('chap1');
       })
       break;
 
     case "loginScreen":
+      console.log("into loginScreen");
       document.getElementById("app").innerHTML = components.loginScreen; // chèn nội dung từ component
 
 
@@ -106,5 +110,13 @@ view.setActiveScreen = (screenName) => {
           view.setActiveScreen("loginScreen");
         });
       break;
-    }
-  };
+
+      case "homeScreen2":
+        document.getElementById("app").innerHTML = components.homeScreen2;
+        document.getElementById("welcome-user").innerText = + model.currentUser.displayName  ;
+        document.getElementById('sign-out-button').addEventListener('click', () => {
+          firebase.auth().signOut();
+        });
+        break;
+  }
+};
