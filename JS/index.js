@@ -11,9 +11,11 @@ const init = () => {
   firebase.initializeApp(firebaseConfig);
   const db = firebase.firestore();
 
+
   console.log("đã chạy hàm init");
 
   firebase.auth().onAuthStateChanged(function (user) {
+    console.log(db);
     if (user && user.emailVerified) {
       model.currentUser = {
         displayName: user.displayName,
@@ -24,12 +26,15 @@ const init = () => {
       // visualViewport là cái gì nhỉ !!
     }
     else {
-      console.log("chạy vào else");
-      view.setActiveScreen('homeScreen');
-    
-      
+      // console.log(db);
+      console.log("chạy vào else ");
+      view.setActiveScreen('homeScreen', db);
+
+
     }
   })
+
+ 
 
 
 }

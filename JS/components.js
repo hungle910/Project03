@@ -3,20 +3,13 @@ components.homeScreen =
 ` <div id="Khudautrang">
 <div><img style="width: 100px; ; height: 80px;margin-left: 40px;margin-right: 100px;" src="data:image/png;base64,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" alt=""></div>
 <input class="thanhtimkiem" type="text" placeholder="    nhập từ khóa cần tìm">
-
-
 <div id="signIn" class="dangnhap" id="">
     <h5>Đăng nhập</h5>
 </div>
-
 <div id="signUp" class="dangki">
     <h5>Đăng kí</h5>
 </div>
 </div>
-
-
-
-
 <div class="Khuthu">
  <div id="home" class="thanhchon" >Trang chủ</div>
  <div class="thanhchon">Thể loại</div>
@@ -24,118 +17,94 @@ components.homeScreen =
  <div class="thanhchon">Tìm truyện</div>
  <div class="thanhchon"><a href="https://www.facebook.com/trangvovanantromanhcutbu">Fanpage</a></div>
 </div>
-
-
-
-
 <div class="khoanhchinh">
-<div class="anhnho">  <div class="anhchinh"><a href="" ><h3>One Punch Man</h3><img src="../IMG/Home/AAAABaazw-uLC_MreJganqQyppcCRzItLXqsTSTvhJqIe_NIkZTzOYL_JgeABTgvUBhBHSAqj2rK81tesT5wV3bmvlSaxLxO.jpg" alt=""></a></div>
- <div class="anhchinh"><a href=""><h3>JOJO's Bizarre Adventure</h3><img src="../IMG/Home/ca-cong-dong-anime-rung-dong-vi-thong-tin-dao-dien-cua-jojos-bizarre-adventure-khong-duoc-tra-tien-luong.jpg" alt=""></a></div></div>       
- <div id="anhchinh"> <a id="chainSawMan" href=""><h3 style="position: absolute;z-index: 100;color: orangered;margin-top:370px;margin-left: 20px;">Chainsaw Man</h3><img src="../IMG/Home/e7664857c6beb95215a311b73612c495.jpeg" alt=""> </a></div>
-<div class="anhnho"> <div class="anhchinh"><h3>Naruto</h3><a href="" ><img src="../IMG/Home/naruto-1-1-696x392-1.jpg" alt=""> </a></div>
-<div class="anhchinh"><a href="" ><h3>One Piece</h3><img src="../IMG/Home/page1.jpg" alt=""></a></div>
+<div class="anhnho">  <div class="anhchinh"><a   ><h3>One Punch Man</h3><img src="../IMG/Home/AAAABaazw-uLC_MreJganqQyppcCRzItLXqsTSTvhJqIe_NIkZTzOYL_JgeABTgvUBhBHSAqj2rK81tesT5wV3bmvlSaxLxO.jpg" alt=""></a></div>
+ <div class="anhchinh"><a  ><h3>JOJO's Bizarre Adventure</h3><img src="../IMG/Home/ca-cong-dong-anime-rung-dong-vi-thong-tin-dao-dien-cua-jojos-bizarre-adventure-khong-duoc-tra-tien-luong.jpg" alt=""></a></div></div>       
+ <div id="anhchinh"> <a id="chainSawMan" ><h3 style="position: absolute;z-index: 100;color: orangered;margin-top:370px;margin-left: 20px;">Chainsaw Man</h3><img src="../IMG/Home/e7664857c6beb95215a311b73612c495.jpeg" alt=""> </a></div>
+<div class="anhnho"> <div class="anhchinh"><h3>Naruto</h3><a   ><img src="../IMG/Home/naruto-1-1-696x392-1.jpg" alt=""> </a></div>
+<div class="anhchinh"><a   ><h3>One Piece</h3><img src="../IMG/Home/page1.jpg" alt=""></a></div>
 </div></div> 
 <div class="trangtong">
 <h1>TẤT CẢ TRUYỆN</h1>
  <div class="dong1">    
-<div class="truyennho"> <a id="chainSawMan" href=""><img src="../IMG/UI/chainsaw-man-vol-04-gn-manga.jpg" alt=""></a>
-<a href=""> <h4   style="color: black;margin-left: 20px;">Chainsaw Man</h4></a>
+<div class="truyennho"> <a id="chainSawMan"  ><img src="../IMG/UI/chainsaw-man-vol-04-gn-manga.jpg" alt=""></a>
+<a  > <h4   style="color: black;margin-left: 20px;">Chainsaw Man</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/81BW-pNt4IL.jpg" alt=""></a>
-<a href=""> <h4 style="color: black;margin-left: 20px;">One Punch Man</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/81BW-pNt4IL.jpg" alt=""></a>
+<a  > <h4 style="color: black;margin-left: 20px;">One Punch Man</h4></a>
 </div>
-
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/jojos-bizarre-adventure-part-5-golden-wind-vol-01-gn-manga.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Jojo's Bizarre Adventure</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/jojos-bizarre-adventure-part-5-golden-wind-vol-01-gn-manga.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Jojo's Bizarre Adventure</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/81hq1v13j-L.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Naruto</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/81hq1v13j-L.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Naruto</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/Chapter_1000.png" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">One Piece</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/Chapter_1000.png" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">One Piece</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/9781646591138-w360.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Tokyo卍Revengers</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/9781646591138-w360.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Tokyo卍Revengers</h4></a>
 </div>
 </div>  
 <div class="dong2">
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/download.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Record of Ragnarok</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/download.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Record of Ragnarok</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/download (1).jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Billy Bat</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/download (1).jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Billy Bat</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/download (2).jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Fullmetal Alchemist</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/download (2).jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Fullmetal Alchemist</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/V1-Cover-Manga.png" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Berserk</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/V1-Cover-Manga.png" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Berserk</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/vat-the-bi-nguyen-rua-chu-thuat-hoi-chien.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Jujutsu Kaisen</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/vat-the-bi-nguyen-rua-chu-thuat-hoi-chien.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Jujutsu Kaisen</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/91Qs9DaFZL-1024x1396.jpeg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Vinland Saga</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/91Qs9DaFZL-1024x1396.jpeg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Vinland Saga</h4></a>
 </div>
 </div>
 <div class="dong3">
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/71CkTFnjyiS.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Attack on Titan</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/71CkTFnjyiS.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Attack on Titan</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/37_4.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Gintama</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/37_4.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Gintama</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/81ZNkhqRvVL.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Demon Slayer</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/81ZNkhqRvVL.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Demon Slayer</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/9781632364395_manga-noragami-volume-19-primary.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Noragami</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/9781632364395_manga-noragami-volume-19-primary.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Noragami</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/91TdoRjA8dL.jpg" alt=""></a>
-<a href=""> <h4 style="color: black;margin-left: 20px;">Fairy Tail</h2></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/91TdoRjA8dL.jpg" alt=""></a>
+<a  > <h4 style="color: black;margin-left: 20px;">Fairy Tail</h2></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/914W2qCP5ML.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Blue Period</h2></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/914W2qCP5ML.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Blue Period</h2></a>
 </div>
 </div>
-
-
 </div>
-
 `
 
 components.loginScreen = `<link rel="stylesheet" href="../css/login.css">
 <Header>
   <h1>Đăng Nhập</h1>
-  <form action="#">
+  <form id="login-form">
       <div class="input-wrapper">
-      <input class="email" type="text" placeholder="Tên đăng nhập"></div>
+      <input class="email" name="email" type="text" placeholder="Tên đăng nhập"></div>
       <div class="error" id="email-error"></div>
 </div>
       <div class="input-wrapper">
-      <input class="password" type="password" placeholder="Mật khẩu"></div>
+      <input class="password" name="password" type="password" placeholder="Mật khẩu"></div>
       <div class="error" id="password-error"></div>
 </div>
 <div class="form-action">
     
   <button class="btn" type="submit">Đăng nhập</button>
 </div>
-
 <span class="cursor-pointer" id="redirect-to-register">
   Không có tài khoản?  Bấm vào đây để đăng kí  </p>
 </span>  
@@ -148,12 +117,12 @@ components.loginScreen = `<link rel="stylesheet" href="../css/login.css">
 components.registerScreen =`
 <link rel="stylesheet" href="../CSS/register.css">
 <header>
+<form id="register-form">
         <H1>Đăng Kí</H1>
         <div class="input-name-wrapper">
             <div class="input-wrapper">
   
              
-
               <input class="input1" type="text" name="firstName" placeholder="Họ" />
               <div class="error" id="first-name-error"></div>
             </div>
@@ -187,9 +156,8 @@ components.registerScreen =`
       <div class="form-action">
        
         <button class="btn" type="submit">Đăng Kí</button> <br>
-
         <span class="cursor-pointer" id="redirect-to-register">
-        Bạn đã có tài khoản rồi? <a style="text-decoration: none;" href="">Bấm vào đây để đăng nhập</a>
+        Bạn đã có tài khoản rồi? Bấm vào đây để đăng nhập
           </span> 
       </div>
         </form>
@@ -202,22 +170,13 @@ components.chainSawMan.chap1 = `
 <div id="Khudautrang">
 <div><img style="width: 100px; ; height: 80px;margin-left: 40px;margin-right: 100px;" src="data:image/png;base64,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" alt=""></div>
 <input class="thanhtimkiem" type="text" placeholder="    nhập từ khóa cần tìm">
-
-
-
 <div class="dangnhap">
     <h5>Đăng nhập</h5>
 </div>
-
 <div class="dangki">
     <h5>Đăng kí</h5>
 </div>
 </div>
-
-
-
-
-
 <div class="Khuthu">
  <div id="home" class="thanhchon">Trang chủ</div>
  <div class="thanhchon">Thể loại</div>
@@ -225,18 +184,13 @@ components.chainSawMan.chap1 = `
  <div class="thanhchon">Tìm truyện</div>
  <div class="thanhchon"><a href="https://www.facebook.com/trangvovanantromanhcutbu">Fanpage</a></div>
 </div>
-
 </div>
 <div id="thanhchuyenchap"><span>
 <select name="dob" id="#">
     <option value="1" >Chap 1</option>
-   <a href=""><option value="2"> <a href="../html/home.html">Chap 2</a> </option></a>
+   <a  ><option value="2"> <a href="../html/home.html">Chap 2</a> </option></a>
 </select> </span>
 </div>
-
-
-
-
 <div class="trangtruyen">
 <img style="height: 731px;width: 1000px;" src="https://lh3.googleusercontent.com/f1CtoH_AywHID_wrRz-nmlIVUXC5ozXhr6JOpN8pdNtUPoSLOJF83hcgPyZtnJrTdT5Cw4weqJPjAYVBCjZdE6v4tDdvQKmcuozB0EJmjM6FmsITV2zOTd-l7tuIu0czWXmQrSosqiy084rQc2WeHCdv047wEuhuL5Y88NUB1nScm5KBCDHpdsbOGZqZPXRIZVn6FfNMSq36Gyx1aaThRFUfcWOmrsNwS6tJ1NQ7kUqn7IvpARjr2N1yYGG5w0IOXlQ79M6iajb_mIXI3hhO8hmS1re2ncfzDEQJtTubqYTgrPShHEbZG-Y3kGpImQVTqJwE2_sCFVi2j6bfMqpOqTPwoYTEFQzuNIDT4EWYPrs-tkk5YrxvD84ydf_og_eYpugo2MgNiOvuWBriz-NiadxHgVl2ID88sLUc1Ux2Yyzaq1NKa2wKuzwnrMwdYpv-ZEgJTYUXcinp1R0PH3xp_xzfyCC1BfyeP9I-M2XoCc40kf0ge2FB1bXtNIoF8fusxp8FyytY_O-R3J_esZp4pWHZLD3ehyabCRxO6844CAgIk3daVihnQEywWYjN7iCccZy06Hyau4whokF_E5XFYJYy6kvnDXHImik_5GtYlMDtpOATiSaH5zwm-gwL_HHnn0BUbfrs7w65qiJ5vf453wTjM2fgHU4tPt7nEirhnLIClizbSRJcsoSKBxnoA1FW4oEyV3kXVCO1nbEyntCtzQ8=w433-h316-no?authuser=0" alt="">
  <img src="https://lh3.googleusercontent.com/2zA3H8Msuf7FRCadhMIMYS7tyuT8i64aHt-5Vu2C-armjKOpWG4wNgBrAv6pMv-fGsMxMRwpdknzJHPdmMPZ-TLqCqp55Vc_qJM3sDyF4DVRjozHeOeC9dSrjJpY-lJmzO9KyOozlSoEg_zrUSyKHOda0PbvvxhZlMORm1RJWrFdfogxxCpl086m76zuzTRNzsXTqKas1nMNeyJtXCOO1VuG7h6RgHFTtT3GYSqrnJO_B9Kf2tZORRiprgo1Kmf9_97l2CJVGDvBUcmyuh5SCy40lOKiEqFW4qpB1gBTqIu2iklCGY-7e2nJQDo1CN7-PoUhRYzZqQodwZcHy101RBYMpcsH3Wc3ekQdx3lTBXMvc0atzpqBrpyUlYOJU7beli9bIGiWeQdNPxnlXljjwqoy0j4s6CXZVwHAKrXeqSRV9bRyzVLKEkPxRO5czkout3TngGN_gqnSXB_jx8k0axLyf3R3mLh0IaYv8xF7KvHg31NDjEEuuzSqs_4V3ZUHf8I8VARRAZDJBhflXKNMojbLCakt2p8JMRh8-Ix_jGRz9m-_ER2FgT9JjolRQBktQoulB3_Q3rkJtYTXzjxSDB4TLEa9_DZGVomaIpKBZf0MUPc5EdLjEpqEBiq2N4wzygVkFX9KpJO2jMx9slFQWPu85tYIs5CG62D0vagPoTq8KwIoa1046dFPAHP2EvmRWJrgJXeL4QbrWs47n-2jdQU=w429-h625-no?authuser=0" alt="">
@@ -288,16 +242,6 @@ components.chainSawMan.chap1 = `
  <img src="https://lh3.googleusercontent.com/Fwt55LstmoFTZ5FELEHmwZKsWW2Q79C-lhs2vI1SHGSz-g77SMbMJoyz_9WrOVkis9s0oHPU2rLMnzpa-O9rU5pA8zEVftSFXiwoTC2LtCxvvQe_xYax0kMQcDTxLy0PJUfxUT9eX2S1Z0MAj82pRe-qrqbEO_vCQaWlJjCs9sEMypifVV7h7_EUtIjnxarDVPI22mZayNlaVTRWeex1Np6Mei6JMGhPE0HGnYv1NoIHzTJv9X9aUav8q8YvfNrnXm7ox3RJLcoTZdxTem0Uj_PfMwTgUUWI1RBHjej2omkdJID6YJTcDyu9M6essJA1vn9OyT44O2BOfMrZV4iBzXD-xsZHduoUrCyhSaY1wUtgMLmZfW3N--J4PLJBBZ0ylTiNEBc9U2V1XHE-iaATstSys6-b7DxYnbAdMq31c-P9gDrgRskIzMQf5m1Hf1jq2JMpY1bLUo-hqjMio0GcWjwEeDIVd78ZSLJUWL83xu2DbzJBvuq1WZmUImaslr14u48YK5eDjB_YKWxFwwuaKBBYWN1lR_KD0e-i_HxO94aksSb1ncXWB4huViaQED6PygIyqrfVLqS9Lt3Gy4hNjMmEZT8n7QQeehZZaDksMQFup0T39W4yaZYctLaytJa1ixIgoUCamp8p8_O7cOMWSPK5rLwked2LH49z0IQGAGJ_pL1YVkV81rIUtL4iGCgioLRiy6kQdVPBAJpw2y90s9w=w429-h625-no?authuser=0" alt="">
  <img src="https://lh3.googleusercontent.com/fDUcVt_Tcqc5P5eHlPXKUAVWVYO1bgAqh3iNNZp6bbS3xwWCQjsXvGNoXPoAD66D0fh9E1ZJPZUiz4AO_4acZF5v5COAfczyUPvMu6xwtGN3Hds3i6BdHe5HcxEwKpcNgIlHbQcyTn2AYCeSFGfSmWJhk4mMdCFIqMopWl1tpzB2Zam14SgbrFgTT688VofJsVNX3fSaSwQHy84XA-eXqIvSl6E8mdXhs_UsRGU6y1nrV2aNMkULWAC2u6EKGhr2W-qNhDflOC-9jFkOv_hI2HCCF-PlG5NBuysfzs3Z00uISJI-DzuPOGe2AthwPtqNYKdlNrgJ-gcL4koxYPrG0Y0rBB9MD1txrSel3tjVaZ1rZx5vTjXED9wIqdUO63wr6pOXkWMHIvsHJmNxwTxymJz3UHaLhJzBuPRf4_jCzn-dGuRairNHIHseWUFM5tDFuA6YtYKP5LxNp0X0I4LczRuAYsIjCnmBmz6g0ZaNvPx8bCg9ISnaOn9qB7BErT8nNpE1hPsoOuE1TPJRUPT84JAScU4OWjnFjm9SOfBXxU5ukqDaxDk9VSbOheAC6gThFm1t4ll4TySXNqLG4CttZuSHNCYpLeq9uV5EfB92Af0-K4XpDF_1IVHcjKH7hZo0-opHf-kfRqb1I3ZlyZjUww9yBcQ2pNKDaq4KEP1Gip7nz9IU6LsDzVn8M91h7kajfXIX5ive5wSYIe6Ug0dle6o=w429-h625-no?authuser=0" alt="">
  
-
-
-
-
-
-
-
-
-
-
 ;`
 
 
@@ -306,15 +250,9 @@ components.chainSawMan.chap2 =`<link rel="stylesheet" href="../CSS/comment.css">
     <div id="Khudautrang">
         <div><img style="width: 100px; ; height: 80px;margin-left: 40px;margin-right: 100px;" src="data:image/png;base64,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" alt=""></div>
         <input class="thanhtimkiem" type="text" placeholder="    nhập từ khóa cần tìm">
-
-
         
     </div>
     
-
-
-
-
     <div class="Khuthu">
          <div id="home" class="thanhchon">Trang chủ</div>
          <div class="thanhchon">Thể loại</div>
@@ -325,14 +263,9 @@ components.chainSawMan.chap2 =`<link rel="stylesheet" href="../CSS/comment.css">
     <div id="thanhchuyenchap"><span>
     <select name="dob" id="#">
         <option value="1" >Chap 1</option>
-       <a href=""><option value="2"> <a href="../html/home.html">Chap 2</a> </option></a>
+       <a  ><option value="2"> <a href="../html/home.html">Chap 2</a> </option></a>
     </select> </span>
     </div>
-
-
-
-
-
     <div class="trangtruyen">
         <img src="https://lh3.googleusercontent.com/cUyXqb2ePQq-pH8Ry3Cj4IpDuKlc_dygua4CHggOvKdddVYCs3d66hgSuUA1mTlbpObLy-Bcp4LxwHMj3vHkVLio_WjzKlL7tQu0-7m2NAGfc3zMiCJVX0N9aZ7mVMBQjqj268SY0f8PI5KtT_lGLhHmHYVmkD6CP6yDLFR-6ORnX9k5wkCu3DksxjsMMqNZwOgFxpxmsFAhTpwM5oMmlXHZXhn0dPtbQXdteGVIAZdDxYrQplDDLZz-HLN18bqYdCv5VvN4FuYKzBfo6QlYnFWANE3mX0pgcMz0i0YwGIywjzI92RQl44MWNwW-0sST_q2u5jmDFKtENP4Tm4iSI-udwbSwqh83tNORfWiqY-bBg-jF1a73wdNLzfoS9KQD8sBdCMRtPeLDSVxLiqwZs7vbYSFExdZMlp6wwrisKjLDfQsr73M7xDhJoTGQOD9OKez4_HWsyo0A8pFHYUR4P0Ka3QBrab7ZLU5xPxCOIcmPOXTuu91fRbsmosDCdUDOd1MUraSvyX86wYd48Np7DdbDcGf0Z3UZq9uJecRUU_HUscki82WLTn-S5TLLgwLSSY5_pLQC1-zKqGeMb_e9xWbfaAgxAkgtcWpG_YxpZ4loMBvvC6pqGO6x2a-Zu-ryLIy5bx9QZgHNtleRRzJb8CDaC5hk5RYDqn0H8v5u7oTS-GWI2WV_pzsm1dEqSffi0eoVO2UWpFnWSub1wt2tQcsv=w412-h600-no?authuser=0" alt="">
         <img src="https://lh3.googleusercontent.com/kEEpot5twPUaCPBaRLZJxuRodC0iM5LuMnxOzx7W0TXJo12XwLnA0cfqo-yt8fuC3fXWiGG4tdDXl780LzIrvUuwHpmKkSCDWC14MvkMwbJTPP5FzwO9QP-XmXVmfqVq0OV_nl7qP_uyWM0QQ208TjmOij3cihNSUb2eR0EzpYKeBzcCQi9AJGE4fI5r57XNs5LpbVtAqEvz3tR5R1fah3Pik5xgFzCVdrtjRgFWQHt1_ksNtodjXCozX3TJSX9OlfI9p5LdfrX-1GlYFLbjOg5oCzcnHNl0VlaTFCMwf1QAfR6pEBRJllkWVlHXkAWji5goZy06rtwtWe3vN9iw9Vv7EEH9xvmfscFnmuF3C9IpDYBXIMGkdcY_dWHXhzr4VzTauGGAT3jrgVi8Ah3DhNfWjT5tmIXOykqTCWkvvqgKhbC7-F0qs-fsNo2ywT-U3xOkB-PeUGN65el4-oA3SnLly5kqVNqe16RCah7gTToqhthQmlvImRz6Yc85B971pwJe1FeebSZic5Ns0As4rpJD9_yoOkCghkH1pe2JbXqpUFOpab4g8VlnalOrKUnFj6YT3Hrj9E7_vT04o6itt3OlAbnyZSds8G7B7rgf198Q7pWJI3vSU65Fe_VdxqmHdggsAtmaI9GJvm4Y0l1HBI9e5Q11xDI59zlDBU-DWa7my4hF1lWJt6_eIEkS1erfmBwjndT5JCnazn2MNq4NVj44=w412-h600-no?authuser=0" alt="">
@@ -359,9 +292,6 @@ components.chainSawMan.chap2 =`<link rel="stylesheet" href="../CSS/comment.css">
         <img src="https://lh3.googleusercontent.com/P5eqfYMtWVmvnH-fb3eJp5fx0f5mNFJeImMBpoX9zFuKIQf4J4wHOJkbQoiaWf9fMaKZEV7NcodweaEVf6lmSZEZJdISeAi_55mBTFiXYwJWp8-8i_DCuI6BjJtS0Ozl8itqVXBdXixqIRSu0srhoQiDfkibOjOpxWzO-hygagQszXCheQ2m43udMq0b1DWlxRSdHIx2geP5cT8HnlY3jYHviefVbBjbUpM0aDv2-4vK-5bD_Ar017J9fwLLKDh9bJbX2ZLii3Wi-1WNqPLuZc96DQ7I5-thv5rI1tj2tO6EQSSZRUlsyjRX6eQ0uk1mjnE1Y36UnZIASJb4Sz1b1HLQ1joVYysyc9__foWxx2uxSweuNIMLeFTZbs-VppPGBL15BCX7vmIow0Ek_Tp6Yu3EKD4q6by8pjZ-LajYQOzkM4Bvn6Wf7XV4Ssnn3Dp6E5LlwnfLMS_yiplqpYf86g5JhHzCLIs-d6L9kIJa_jMboatLdcDKwwU9hNttz9JTTNm-lOmFkJDCAiEESkjbdSQxTaOvNvb8pCzJqNExZ8SNbzowd0XktkjQVUIq2SsqCGmidKWlhx3RPHaXWUuvaXA0TRf2VZmbahd5rVhiPcm999Oylr9A-V_Z6dz32M6yIcQAaiGpkq1L_VHZ-OwfkAVBUw8kH4-EIJt1Btg-UHsE5sOjr0C1ACKscmAkIbBhWg8M1OLGH-Qs8qK0vn2hlDaN=w412-h600-no?authuser=0" alt="">
         <img src="https://lh3.googleusercontent.com/ohBeIUl9mQaNcBMHrL_C02KzsLBD2-BKovc2rR9MNGN3mK6wjjvXvtziCiBFQQkpEE6p-fXDAgG7-0snvWMdQTQiFRfXYA1XfbCRQ6XBITUo16c-H6moeboR6YUo5zMlj-KjGuIolW8ZGECnMa5bvFBaG3XL-c_Kb0HqQyEJJf9PfAinmZum5DafZLXmFysE-Gj2amehLtQILzmo-V7wqHanIZ-iiOIUjFMaKeV5xD9amu3Alc_HAV-2f-6orQzHg_cEY6D1xraIHD0l6J8VAxpUXAlJDNz6U6uOCt0oHVdgSWR5LWBu0fzmP6lfuMPtD8yl4j2UT9C11ivTCO9i0CJrh-kHa95crqH9JQClRajCVUr_Ds1a9lMU3kHSLWdnUMLa76RQNw2PI0dXfJFToFno1eAyGx2QHwJrhFHdNFHJ2pEM-W_HJuWBgm2kUCZaIBkgW4JoDRL24aCjgLgzuryFz7832mt7yxJk6aafT-Yk-lG35W0u_L2-YAIcUQuPDWHEoA2esL-JdHuw6YagooIDz7ZA9-RilgIFndUNk7MdyVeobL0qa3V2aUJrSkYcLYyUA_crn8BLxT6OyTX4n0EtiojqHWBF04WsWHer4ADgCmqyAO49_9DsAJ_kz_B41YwI2rHnJr2MBd1wuUL-q-URJYu2Wt15eudk6NFTTFazul3Vyfx4fkcbNj5Oc1FmuZ_16d4QV7Fub16bq6_R1nku=w412-h600-no?authuser=0" alt="">
         <img src="https://lh3.googleusercontent.com/UsgmJekgGM2Bb4ui2kW45fBH4ggk7eS_adyuxp1HGuoJeKxF_rlLy0Y5mu-PEfdfvbSfMfStEqotpKx5KfyhxvUKqJsiyv9liMZAK1JT6hLaTwgS_RKM6zYBSMK9T1EeCTyP0EdLUXYoyy_VJaI9g8fHTXxlbwC_5uxge4IEbW_HzVhOrfDlHk8t9mRvJe_jGlctluD91uzvpWrVvhU6pvFYC-BLRii8LvxX2D7w_TRlQ4KKj033SnvGTVL7Bjr-M8uvwJ1O3ji0oI8JTiuTi7TuaAflu3WhCmonWkUm9-mWDpkjUxpijP90SYq5uIxXhSbbREa_-wSL-BnokpQkmY8T-ohrxAXciXzkXTh1tIN09xhNw8CSWssqr0l_3ZV1tdt8w4RN65jjccJ5NFVZg4H7WWT3prcAyvT-c0CqHQeVOngePDJmXRhViXyr2YGabHOut7IqPwo7yxAPJ1JCb3uUU_IWvlTsOU6dT-h6cIr3MKII5m20-L9EmRzduNGFs_lwPu99QJvUA1pAy7YR6_zF3A0BCEK9lqVt9ZxzUMpqd4gScmf4YZ89a4f-y6zdEcms0txgR0EcXge12-tj5ccPgwQSHFC3If4o3rL_HzefkWdQY8i8OGMFPhhsKwSbIQmcd2idqrWAlg7I7LxWW3gtZ64XnMQ54lXT7nO-9IqEpf5pEXsMEh-CK57BoBSj6N1OKhgR6Iu4kSJwRqZ8X99W=w412-h600-no?authuser=0" alt="">
-
-
-
         <div class="binhluan">
         
         
@@ -373,12 +303,9 @@ components.chainSawMan.chap2 =`<link rel="stylesheet" href="../CSS/comment.css">
             <button type="submit">
                 
             </button>
-
             <ul id="cmtmoi"></ul>
         </form>
-
      
-
     </div>
 </body>
 </html>`
@@ -386,18 +313,12 @@ components.chainSawMan.chap2 =`<link rel="stylesheet" href="../CSS/comment.css">
 components.homeScreen2 = `<div id="Khudautrang">
 <div><img style="width: 100px; ; height: 80px;margin-left: 40px;margin-right: 100px;" src="data:image/png;base64,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" alt=""></div>
 <input class="thanhtimkiem" type="text" placeholder="    nhập từ khóa cần tìm">
-
 <h5 id="welcome-user"></h5>  <div>
 <button class="btn" id="sign-out-button">
     Sign-out
 </button>
 </div>
-
 </div>
-
-
-
-
 <div class="Khuthu">
  <div id="home" class="thanhchon" >Trang chủ</div>
  <div class="thanhchon">Thể loại</div>
@@ -405,98 +326,75 @@ components.homeScreen2 = `<div id="Khudautrang">
  <div class="thanhchon">Tìm truyện</div>
  <div class="thanhchon"><a href="https://www.facebook.com/trangvovanantromanhcutbu">Fanpage</a></div>
 </div>
-
-
-
-
 <div class="khoanhchinh">
-<div class="anhnho">  <div class="anhchinh"><a href="" ><h3>One Punch Man</h3><img src="../IMG/Home/AAAABaazw-uLC_MreJganqQyppcCRzItLXqsTSTvhJqIe_NIkZTzOYL_JgeABTgvUBhBHSAqj2rK81tesT5wV3bmvlSaxLxO.jpg" alt=""></a></div>
- <div class="anhchinh"><a href=""><h3>JOJO's Bizarre Adventure</h3><img src="../IMG/Home/ca-cong-dong-anime-rung-dong-vi-thong-tin-dao-dien-cua-jojos-bizarre-adventure-khong-duoc-tra-tien-luong.jpg" alt=""></a></div></div>       
- <div id="anhchinh"> <a id="chainsawman" href=""><h3 style="position: absolute;z-index: 100;color: orangered;margin-top:370px;margin-left: 20px;">Chainsaw Man</h3><img src="../IMG/Home/e7664857c6beb95215a311b73612c495.jpeg" alt=""> </a></div>
-<div class="anhnho"> <div class="anhchinh"><h3>Naruto</h3><a href="" ><img src="../IMG/Home/naruto-1-1-696x392-1.jpg" alt=""> </a></div>
-<div class="anhchinh"><a href="" ><h3>One Piece</h3><img src="../IMG/Home/page1.jpg" alt=""></a></div>
-</div></div> 
+<div class="anhnho">  <div class="anhchinh"><a   ><h3>One Punch Man</h3><img src="../IMG/Home/AAAABaazw-uLC_MreJganqQyppcCRzItLXqsTSTvhJqIe_NIkZTzOYL_JgeABTgvUBhBHSAqj2rK81tesT5wV3bmvlSaxLxO.jpg" alt=""></a></div>
+ <div class="anhchinh"><a  ><h3>JOJO's Bizarre Adventure</h3><img src="../IMG/Home/ca-cong-dong-anime-rung-dong-vi-thong-tin-dao-dien-cua-jojos-bizarre-adventure-khong-duoc-tra-tien-luong.jpg" alt=""></a></div></div>       
+ <div id="anhchinh"> <a id="chainSawMan" ><h3 style="position: absolute;z-index: 100;color: orangered;margin-top:370px;margin-left: 20px;">Chainsaw Man</h3><img src="../IMG/Home/e7664857c6beb95215a311b73612c495.jpeg" alt=""> </a></div>
+<div class="anhnho"> <div class="anhchinh"><h3>Naruto</h3><a   ><img src="../IMG/Home/naruto-1-1-696x392-1.jpg" alt=""> </a></div>
+<div class="anhchinh"><a   ><h3>One Piece</h3><img src="../IMG/Home/page1.jpg" alt=""></a></div>
+</div></div>
 <div class="trangtong">
 <h1>TẤT CẢ TRUYỆN</h1>
  <div class="dong1">    
-<div class="truyennho"> <a href=""><img src="../IMG/UI/chainsaw-man-vol-04-gn-manga.jpg" alt=""></a>
-<a href=""> <h4   style="color: black;margin-left: 20px;">Chainsaw Man</h4></a>
+<div class="truyennho"> <a  ><img src="../IMG/UI/chainsaw-man-vol-04-gn-manga.jpg" alt=""></a>
+<a  > <h4   style="color: black;margin-left: 20px;">Chainsaw Man</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/81BW-pNt4IL.jpg" alt=""></a>
-<a href=""> <h4 style="color: black;margin-left: 20px;">One Punch Man</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/81BW-pNt4IL.jpg" alt=""></a>
+<a  > <h4 style="color: black;margin-left: 20px;">One Punch Man</h4></a>
 </div>
-
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/jojos-bizarre-adventure-part-5-golden-wind-vol-01-gn-manga.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Jojo's Bizarre Adventure</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/jojos-bizarre-adventure-part-5-golden-wind-vol-01-gn-manga.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Jojo's Bizarre Adventure</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/81hq1v13j-L.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Naruto</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/81hq1v13j-L.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Naruto</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/Chapter_1000.png" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">One Piece</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/Chapter_1000.png" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">One Piece</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/9781646591138-w360.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Tokyo卍Revengers</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/9781646591138-w360.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Tokyo卍Revengers</h4></a>
 </div>
 </div>  
 <div class="dong2">
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/download.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Record of Ragnarok</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/download.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Record of Ragnarok</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/download (1).jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Billy Bat</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/download (1).jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Billy Bat</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/download (2).jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Fullmetal Alchemist</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/download (2).jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Fullmetal Alchemist</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/V1-Cover-Manga.png" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Berserk</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/V1-Cover-Manga.png" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Berserk</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/vat-the-bi-nguyen-rua-chu-thuat-hoi-chien.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Jujutsu Kaisen</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/vat-the-bi-nguyen-rua-chu-thuat-hoi-chien.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Jujutsu Kaisen</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/91Qs9DaFZL-1024x1396.jpeg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Vinland Saga</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/91Qs9DaFZL-1024x1396.jpeg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Vinland Saga</h4></a>
 </div>
 </div>
 <div class="dong3">
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/71CkTFnjyiS.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Attack on Titan</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/71CkTFnjyiS.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Attack on Titan</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/37_4.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Gintama</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/37_4.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Gintama</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/81ZNkhqRvVL.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Demon Slayer</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/81ZNkhqRvVL.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Demon Slayer</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/9781632364395_manga-noragami-volume-19-primary.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Noragami</h4></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/9781632364395_manga-noragami-volume-19-primary.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Noragami</h4></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/91TdoRjA8dL.jpg" alt=""></a>
-<a href=""> <h4 style="color: black;margin-left: 20px;">Fairy Tail</h2></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/91TdoRjA8dL.jpg" alt=""></a>
+<a  > <h4 style="color: black;margin-left: 20px;">Fairy Tail</h2></a>
 </div>
-
-<div  class="truyennho"> <a href=""><img src="../IMG/UI/914W2qCP5ML.jpg" alt=""></a>
-<a href=""> <h4  style="color: black;margin-left: 20px;">Blue Period</h2></a>
+<div  class="truyennho"> <a  ><img src="../IMG/UI/914W2qCP5ML.jpg" alt=""></a>
+<a  > <h4  style="color: black;margin-left: 20px;">Blue Period</h2></a>
 </div>
 </div>
-
-
-
 <div class="binhluan">
         
         
@@ -508,12 +406,9 @@ components.homeScreen2 = `<div id="Khudautrang">
     <button type="submit">
         
     </button>
-
     <ul id="cmtmoi"></ul>
 </form>
-
 </div>
-
 `
 components.aboutScreen =`
 <link rel="stylesheet" href="../CSS/forum.css">
@@ -543,7 +438,7 @@ components.aboutScreen =`
         
             <div class="binhluan">
         
-        
+                         <h1 style="color:red;margin-left:300px;">Diễn Đàn Web</h1>
                 <form id="binhluan">
                     <input type="text" name="user" placeholder="tên của bạn">
                     <div class="chobinhluan">
@@ -566,11 +461,4 @@ components.aboutScreen =`
         
             </div>
    
-
-
-
-
-
-   
 `
-    

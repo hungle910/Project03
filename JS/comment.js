@@ -1,6 +1,7 @@
 const cmtList = document.getElementById('cmtmoi');
 const form = document.querySelector("#binhluan");
 
+
 function renderCmt(doc) {
     let li = document.createElement("li");
     let user = document.createElement('span');
@@ -11,31 +12,34 @@ function renderCmt(doc) {
 
     user.textContent = doc.data().user;
     cmt.textContent = doc.data().cmt;
-    
+
 
     li.appendChild(user);
     li.appendChild(cmt);
 
 
 
-    cmtList.appendChild(li)      
+    cmtList.appendChild(li)
 }
 
-
-
-   db.collection("comment").get().then((snapshot)=>{
-       snapshot.docs.forEach(doc =>{
-           renderCmt(doc)
-       })
-   })
-
-   form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    db.collection('comment').add({
-        user: form.user.value.trim(),
-        cmt: form.cmt.value.trim(),
+console.log(form);
+function comment(db) {
+  
+    db.collection("comment").get().then((snapshot) => {
+        snapshot.docs.forEach(doc => {
+            renderCmt(doc)
+        })
     })
-    form.user.value = "";
-    form.cmt.value = "";
 
-})
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        db.collection('comment').add({
+            user: form.user.value.trim(),
+            cmt: form.cmt.value.trim(),
+        })
+        form.user.value = "";
+        form.cmt.value = "";
+
+    })
+
+}

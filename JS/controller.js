@@ -3,37 +3,37 @@ controller.register = (data) => {
 
   if (data.firstName.trim() === "") {
     document.getElementById("first-name-error").innerText =
-      "Please input first name";
+      "Làm ơn hãy thêm tên của bạn";
   } else {
     document.getElementById("first-name-error").innerText = "";
   }
 
   if (data.lastName.trim() === "") {
     document.getElementById("last-name-error").innerText =
-      "Please input your last name";
+      "thêm cả họ nữa";
   } else {
     document.getElementById("last-name-error").innerText = "";
   }
 
   if (data.email.trim() === "") {
     document.getElementById("email-error").innerText =
-      "Please input your email";
+      "nhập email của bạn";
   } else {
     document.getElementById("email-error").innerText = "";
   }
 
   if (data.password.trim() === "") {
     document.getElementById("password-error").innerText =
-      "Please input your password";
+      "nhập mật khẩu của bạn";
   } else {
     document.getElementById("password-error").innerText = "";
   }
   if (data.confirmPassword.trim() === "") {
     document.getElementById("confirm-password-error").innerText =
-      "Please input confirm password";
+      "nhập lại mật khẩu đi";
   } else if (data.confirmPassword.trim() !== data.password.trim()) {
     document.getElementById("confirm-password-error").innerText =
-      "Password didn't match";
+      "Mật khẩu nhập lại không giống nhau";
   } else {
     document.getElementById("confirm-password-error").innerText = "";
   }

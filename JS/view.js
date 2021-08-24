@@ -3,10 +3,10 @@ view.chainSawMan = {};
 let temp;
 
 
-function LR(){
+function LR() {
   const signUp = document.getElementById("signUp")
   const signIn = document.getElementById("signIn");
-  
+
   signUp.addEventListener("click", () => {
     view.setActiveScreen('registerScreen');
   })
@@ -19,21 +19,21 @@ function LR(){
 function navBar() {
   const home = document.getElementById("home");
 
-home.addEventListener("click", () => {
+  home.addEventListener("click", () => {
     view.setActiveScreen('homeScreen');
   }
   )
 
 }
 
-
+/*
 view.chainSawMan.chapter = (chapter) => {
   switch (chapter) {
     case "chap1":
       document.getElementById("app").innerHTML = components.chainSawMan.chap1;
       changeChap();
       navBar()
-      
+
 
 
       break;
@@ -43,44 +43,40 @@ view.chainSawMan.chapter = (chapter) => {
       console.log(temp);
       changeChap()
       navBar();
-      
 
-      
+
+
       break;
   }
-}
+} */
 
-view.setActiveScreen = (screenName) => {
+view.setActiveScreen = (screenName, db) => {
+
   // hiểu đây là 1 function
   switch (screenName) {
     case "homeScreen":
-      console.log(view);
       document.getElementById("app").innerHTML = components.homeScreen;
       document.getElementById('anhchinh').addEventListener('click', () => {
         view.chainSawMan.chapter('chap1');
       })
 
-      document.getElementById("signIn").
-      addEventListener("click",()=>{
-        view.setActiveScreen("loginScreen");
-      });
-
-      document.getElementById("signUp").
-      addEventListener("click",()=>{
-        view.setActiveScreen("registerScreen");
-      });
+      LR()
 
 
-      document.getElementById("signUp").
-      addEventListener("click",()=>{
-        view.setActiveScreen("registerScreen");
-      });
 
       document.getElementById("thaoluan").
-      addEventListener("click",()=>{
-        view.setActiveScreen("aboutScreen");
-      });
+        addEventListener("click", () => {
+          console.log("about screen");
+          view.setActiveScreen("aboutScreen");
+        });
 
+      document.getElementById("anhchinh").
+        addEventListener("click", () => {
+          console.log("đã click vào anhchinh");
+          view.setActiveScreen("pageScreen");
+        });
+
+      comment(db);
 
       break;
 
@@ -99,7 +95,7 @@ view.setActiveScreen = (screenName) => {
       const loginForm = document.getElementById('login-form');
       loginForm.addEventListener("submit", (event) => {
         event.preventDefault(); // khoong load lai trang
-        loginForm.email.value = loginForm.email.value.trim(); // làm cho người dùng nhập 
+        // loginForm.email.value = loginForm.email.value.trim(); // làm cho người dùng nhập 
         //không bị thừa dấu cách bên trái or phải
         const dataLogin = {
           email: loginForm.email.value,
@@ -134,12 +130,29 @@ view.setActiveScreen = (screenName) => {
         });
       break;
 
-      case "homeScreen2":
-        document.getElementById("app").innerHTML = components.homeScreen2;
-        document.getElementById("welcome-user").innerText = + model.currentUser.displayName  ;
-        document.getElementById('sign-out-button').addEventListener('click', () => {
-          firebase.auth().signOut();
-        });
-        break;
+    case "pageScreen":
+      console.log("đã vào màn hình pageScreen");
+      document.getElementById("app").innerHTML = components.chainSawMan.chap1;
+      LR()
+      break;
+
+    case "aboutScreen":
+      document.getElementById("app").innerHTML = components.aboutScreen;
+      navBar()
+      break;
+
+
+    case "homeScreen2":
+      document.getElementById("app").innerHTML = components.homeScreen2;
+      document.getElementById("welcome-user").innerText = + model.currentUser.displayName;
+      document.getElementById('sign-out-button').addEventListener('click', () => {
+        firebase.auth().signOut();
+      });
+
+      
+
+      comment(db);
+      break;
+
   }
 };
