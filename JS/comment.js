@@ -23,23 +23,24 @@ function renderCmt(doc) {
 }
 
 console.log(form);
-function comment(db) {
+
+// function comment(db) {
   
-    db.collection("comment").get().then((snapshot) => {
-        snapshot.docs.forEach(doc => {
-            renderCmt(doc)
-        })
-    })
+//     db.collection("comment").get().then((snapshot) => {
+//         snapshot.docs.forEach(doc => {
+//             renderCmt(doc)
+//         })
+//     })
 
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        db.collection('comment').add({
-            user: form.user.value.trim(),
-            cmt: form.cmt.value.trim(),
-        })
-        form.user.value = "";
-        form.cmt.value = "";
+//     form.addEventListener('submit', (e) => {
+//         e.preventDefault();
+//         db.collection('comment').add({
+//             user: form.user.value.trim(),
+//             cmt: form.cmt.value.trim(),
+//         })
+//         form.user.value = "";
+//         form.cmt.value = "";
 
-    })
+//     })
 
-}
+// }

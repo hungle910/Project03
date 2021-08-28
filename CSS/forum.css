@@ -1,14 +1,15 @@
-.comment{
-    
+.comment {
     padding: 10px;
     color: black;
     background-color: #dbd5c5;
     margin-bottom: 10px;
 }
-.user{
+
+.user {
     color: blue;
 }
-.binhluan{
+
+.binhluan {
     margin-left: 200px;
     margin-right: 200px;
     position: relative;
@@ -18,34 +19,42 @@
     padding-left: 10px;
     padding-right: 0px;
 }
-button{
+
+button {
     position: absolute;
     width: 50px;
     height: 30px;
     background-color: red;
 }
-ul{
+
+ul {
     list-style: none;
     padding: 0;
 }
-li{
+
+li {
     padding: 20px;
     font-size: 16px;
     margin-top: 5px;
+    border: 1px blACK solid;
+    background-color: white;
 }
-li:nth-child(even){
+
+li:nth-child(even) {
     padding: 20px;
 }
-li span{
+
+li span {
     display: block;
 }
-li span:nth-child(2){
+
+li span:nth-child(2) {
     font-size: 16px;
-    margin-top:5px ;
-    
+    margin-top: 5px;
 }
-li span:nth-child(1){
+
+li span:nth-child(1) {
     font-size: 16px;
-    margin-top:5px ;
+    margin-top: 5px;
     color: blue;
 }

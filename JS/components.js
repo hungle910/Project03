@@ -1,6 +1,6 @@
 const components = {};
-components.homeScreen = 
-` <div id="Khudautrang">
+components.homeScreen =
+    ` <div id="Khudautrang">
 <div><img style="width: 100px; ; height: 80px;margin-left: 40px;margin-right: 100px;" src="data:image/png;base64,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" alt=""></div>
 <input class="thanhtimkiem" type="text" placeholder="    nhập từ khóa cần tìm">
 <div id="signIn" class="dangnhap" id="">
@@ -13,7 +13,7 @@ components.homeScreen =
 <div class="Khuthu">
  <div id="home" class="thanhchon" >Trang chủ</div>
  <div class="thanhchon">Thể loại</div>
- <div id="thaoluan" class="thanhchon">Thảo luận</div>
+ <a href="../HTML/forum.html"> <div id="thaoluan" class="thanhchon"> Thảo luận</div> </a>
  <div class="thanhchon">Tìm truyện</div>
  <div class="thanhchon"><a href="https://www.facebook.com/trangvovanantromanhcutbu">Fanpage</a></div>
 </div>
@@ -114,7 +114,7 @@ components.loginScreen = `<link rel="stylesheet" href="../css/login.css">
 </Header>`
 
 
-components.registerScreen =`
+components.registerScreen = `
 <link rel="stylesheet" href="../CSS/register.css">
 <header>
 <form id="register-form">
@@ -166,31 +166,37 @@ components.chainSawMan = {};
 
 
 components.chainSawMan.chap1 = `
-<link rel="stylesheet" href="../CSS/comment.css">
+
 <div id="Khudautrang">
 <div><img style="width: 100px; ; height: 80px;margin-left: 40px;margin-right: 100px;" src="data:image/png;base64,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" alt=""></div>
 <input class="thanhtimkiem" type="text" placeholder="    nhập từ khóa cần tìm">
-<div class="dangnhap">
-    <h5>Đăng nhập</h5>
-</div>
-<div class="dangki">
-    <h5>Đăng kí</h5>
-</div>
+
 </div>
 <div class="Khuthu">
  <div id="home" class="thanhchon">Trang chủ</div>
  <div class="thanhchon">Thể loại</div>
- <div id="about" class="thanhchon">Thảo luận</div>
+ <a href="../HTML/forum.html"> <div id="thaoluan" class="thanhchon"> Thảo luận</div> </a>
  <div class="thanhchon">Tìm truyện</div>
  <div class="thanhchon"><a href="https://www.facebook.com/trangvovanantromanhcutbu">Fanpage</a></div>
 </div>
 </div>
-<div id="thanhchuyenchap"><span>
-<select name="dob" id="#">
-    <option value="1" >Chap 1</option>
-   <a  ><option value="2"> <a href="../html/home.html">Chap 2</a> </option></a>
-</select> </span>
-</div>
+
+<form id="thanhchuyenchap">
+        <span>
+            <label for="chapters"> Choose a chap:
+            </label>
+            <input type="submit" value="Submit">
+            <select id="chapters" name="chapList" form="thanhchuyenchap">
+                <option value="1"> Chap1
+                </option>
+                <option value="2"> Chap2
+                </option>
+                <option value="3"> Chap3
+                </option>
+            </select>
+        </span>
+    </form>
+
 <div class="trangtruyen">
 <img style="height: 731px;width: 1000px;" src="https://lh3.googleusercontent.com/f1CtoH_AywHID_wrRz-nmlIVUXC5ozXhr6JOpN8pdNtUPoSLOJF83hcgPyZtnJrTdT5Cw4weqJPjAYVBCjZdE6v4tDdvQKmcuozB0EJmjM6FmsITV2zOTd-l7tuIu0czWXmQrSosqiy084rQc2WeHCdv047wEuhuL5Y88NUB1nScm5KBCDHpdsbOGZqZPXRIZVn6FfNMSq36Gyx1aaThRFUfcWOmrsNwS6tJ1NQ7kUqn7IvpARjr2N1yYGG5w0IOXlQ79M6iajb_mIXI3hhO8hmS1re2ncfzDEQJtTubqYTgrPShHEbZG-Y3kGpImQVTqJwE2_sCFVi2j6bfMqpOqTPwoYTEFQzuNIDT4EWYPrs-tkk5YrxvD84ydf_og_eYpugo2MgNiOvuWBriz-NiadxHgVl2ID88sLUc1Ux2Yyzaq1NKa2wKuzwnrMwdYpv-ZEgJTYUXcinp1R0PH3xp_xzfyCC1BfyeP9I-M2XoCc40kf0ge2FB1bXtNIoF8fusxp8FyytY_O-R3J_esZp4pWHZLD3ehyabCRxO6844CAgIk3daVihnQEywWYjN7iCccZy06Hyau4whokF_E5XFYJYy6kvnDXHImik_5GtYlMDtpOATiSaH5zwm-gwL_HHnn0BUbfrs7w65qiJ5vf453wTjM2fgHU4tPt7nEirhnLIClizbSRJcsoSKBxnoA1FW4oEyV3kXVCO1nbEyntCtzQ8=w433-h316-no?authuser=0" alt="">
  <img src="https://lh3.googleusercontent.com/2zA3H8Msuf7FRCadhMIMYS7tyuT8i64aHt-5Vu2C-armjKOpWG4wNgBrAv6pMv-fGsMxMRwpdknzJHPdmMPZ-TLqCqp55Vc_qJM3sDyF4DVRjozHeOeC9dSrjJpY-lJmzO9KyOozlSoEg_zrUSyKHOda0PbvvxhZlMORm1RJWrFdfogxxCpl086m76zuzTRNzsXTqKas1nMNeyJtXCOO1VuG7h6RgHFTtT3GYSqrnJO_B9Kf2tZORRiprgo1Kmf9_97l2CJVGDvBUcmyuh5SCy40lOKiEqFW4qpB1gBTqIu2iklCGY-7e2nJQDo1CN7-PoUhRYzZqQodwZcHy101RBYMpcsH3Wc3ekQdx3lTBXMvc0atzpqBrpyUlYOJU7beli9bIGiWeQdNPxnlXljjwqoy0j4s6CXZVwHAKrXeqSRV9bRyzVLKEkPxRO5czkout3TngGN_gqnSXB_jx8k0axLyf3R3mLh0IaYv8xF7KvHg31NDjEEuuzSqs_4V3ZUHf8I8VARRAZDJBhflXKNMojbLCakt2p8JMRh8-Ix_jGRz9m-_ER2FgT9JjolRQBktQoulB3_Q3rkJtYTXzjxSDB4TLEa9_DZGVomaIpKBZf0MUPc5EdLjEpqEBiq2N4wzygVkFX9KpJO2jMx9slFQWPu85tYIs5CG62D0vagPoTq8KwIoa1046dFPAHP2EvmRWJrgJXeL4QbrWs47n-2jdQU=w429-h625-no?authuser=0" alt="">
@@ -245,7 +251,7 @@ components.chainSawMan.chap1 = `
 ;`
 
 
-components.chainSawMan.chap2 =`<link rel="stylesheet" href="../CSS/comment.css">
+components.chainSawMan.chap2 = `<link rel="stylesheet" href="../CSS/comment.css">
 <body>
     <div id="Khudautrang">
         <div><img style="width: 100px; ; height: 80px;margin-left: 40px;margin-right: 100px;" src="data:image/png;base64,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" alt=""></div>
@@ -256,16 +262,26 @@ components.chainSawMan.chap2 =`<link rel="stylesheet" href="../CSS/comment.css">
     <div class="Khuthu">
          <div id="home" class="thanhchon">Trang chủ</div>
          <div class="thanhchon">Thể loại</div>
-         <div id="about" class="thanhchon">Thảo luận</div>
+         <a href="../HTML/forum.html"> <div id="thaoluan" class="thanhchon"> Thảo luận</div> </a>
          <div class="thanhchon">Tìm truyện</div>
          <div class="thanhchon"><a href="https://www.facebook.com/trangvovanantromanhcutbu">Fanpage</a></div>
     </div>
-    <div id="thanhchuyenchap"><span>
-    <select name="dob" id="#">
-        <option value="1" >Chap 1</option>
-       <a  ><option value="2"> <a href="../html/home.html">Chap 2</a> </option></a>
-    </select> </span>
-    </div>
+    
+<form id="thanhchuyenchap">
+<span>
+    <label for="chapters"> Choose a chap:
+    </label>
+    <input type="submit" value="Submit">
+    <select id="chapters" name="chapList" form="thanhchuyenchap">
+        <option value="1"> Chap1
+        </option>
+        <option value="2"> Chap2
+        </option>
+        <option value="3"> Chap3
+        </option>
+    </select>
+</span>
+</form>
     <div class="trangtruyen">
         <img src="https://lh3.googleusercontent.com/cUyXqb2ePQq-pH8Ry3Cj4IpDuKlc_dygua4CHggOvKdddVYCs3d66hgSuUA1mTlbpObLy-Bcp4LxwHMj3vHkVLio_WjzKlL7tQu0-7m2NAGfc3zMiCJVX0N9aZ7mVMBQjqj268SY0f8PI5KtT_lGLhHmHYVmkD6CP6yDLFR-6ORnX9k5wkCu3DksxjsMMqNZwOgFxpxmsFAhTpwM5oMmlXHZXhn0dPtbQXdteGVIAZdDxYrQplDDLZz-HLN18bqYdCv5VvN4FuYKzBfo6QlYnFWANE3mX0pgcMz0i0YwGIywjzI92RQl44MWNwW-0sST_q2u5jmDFKtENP4Tm4iSI-udwbSwqh83tNORfWiqY-bBg-jF1a73wdNLzfoS9KQD8sBdCMRtPeLDSVxLiqwZs7vbYSFExdZMlp6wwrisKjLDfQsr73M7xDhJoTGQOD9OKez4_HWsyo0A8pFHYUR4P0Ka3QBrab7ZLU5xPxCOIcmPOXTuu91fRbsmosDCdUDOd1MUraSvyX86wYd48Np7DdbDcGf0Z3UZq9uJecRUU_HUscki82WLTn-S5TLLgwLSSY5_pLQC1-zKqGeMb_e9xWbfaAgxAkgtcWpG_YxpZ4loMBvvC6pqGO6x2a-Zu-ryLIy5bx9QZgHNtleRRzJb8CDaC5hk5RYDqn0H8v5u7oTS-GWI2WV_pzsm1dEqSffi0eoVO2UWpFnWSub1wt2tQcsv=w412-h600-no?authuser=0" alt="">
         <img src="https://lh3.googleusercontent.com/kEEpot5twPUaCPBaRLZJxuRodC0iM5LuMnxOzx7W0TXJo12XwLnA0cfqo-yt8fuC3fXWiGG4tdDXl780LzIrvUuwHpmKkSCDWC14MvkMwbJTPP5FzwO9QP-XmXVmfqVq0OV_nl7qP_uyWM0QQ208TjmOij3cihNSUb2eR0EzpYKeBzcCQi9AJGE4fI5r57XNs5LpbVtAqEvz3tR5R1fah3Pik5xgFzCVdrtjRgFWQHt1_ksNtodjXCozX3TJSX9OlfI9p5LdfrX-1GlYFLbjOg5oCzcnHNl0VlaTFCMwf1QAfR6pEBRJllkWVlHXkAWji5goZy06rtwtWe3vN9iw9Vv7EEH9xvmfscFnmuF3C9IpDYBXIMGkdcY_dWHXhzr4VzTauGGAT3jrgVi8Ah3DhNfWjT5tmIXOykqTCWkvvqgKhbC7-F0qs-fsNo2ywT-U3xOkB-PeUGN65el4-oA3SnLly5kqVNqe16RCah7gTToqhthQmlvImRz6Yc85B971pwJe1FeebSZic5Ns0As4rpJD9_yoOkCghkH1pe2JbXqpUFOpab4g8VlnalOrKUnFj6YT3Hrj9E7_vT04o6itt3OlAbnyZSds8G7B7rgf198Q7pWJI3vSU65Fe_VdxqmHdggsAtmaI9GJvm4Y0l1HBI9e5Q11xDI59zlDBU-DWa7my4hF1lWJt6_eIEkS1erfmBwjndT5JCnazn2MNq4NVj44=w412-h600-no?authuser=0" alt="">
@@ -315,14 +331,14 @@ components.homeScreen2 = `<div id="Khudautrang">
 <input class="thanhtimkiem" type="text" placeholder="    nhập từ khóa cần tìm">
 <h5 id="welcome-user"></h5>  <div>
 <button class="btn" id="sign-out-button">
-    Sign-out
+    Đăng xuất
 </button>
 </div>
 </div>
 <div class="Khuthu">
  <div id="home" class="thanhchon" >Trang chủ</div>
  <div class="thanhchon">Thể loại</div>
- <div id="about" class="thanhchon">Thảo luận</div>
+<a href="../HTML/forum.html"> <div id="thaoluan" class="thanhchon"> Thảo luận</div> </a>
  <div class="thanhchon">Tìm truyện</div>
  <div class="thanhchon"><a href="https://www.facebook.com/trangvovanantromanhcutbu">Fanpage</a></div>
 </div>
@@ -398,67 +414,82 @@ components.homeScreen2 = `<div id="Khudautrang">
 <div class="binhluan">
         
         
-<form id="binhluan">
-    <input type="text" name="user" placeholder="tên của bạn">
-    <div class="chobinhluan">
-        <input style="width: 900px;position: relative;padding: 15px;margin-bottom: 10px;" type="text" name="message" placeholder="bình luận">
-    </div>
-    <button type="submit">
-        
-    </button>
-    <ul id="cmtmoi"></ul>
-</form>
-</div>
+
 `
-components.aboutScreen =`
-<link rel="stylesheet" href="../CSS/forum.css">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <div id="Khudautrang">
-        <div><img style="width: 100px; ; height: 80px;margin-left: 40px;margin-right: 100px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAt1BMVEX///8AAADMIinIAAAgICB1dXXd3d3v7+/JAAvwy8zk5OT29vajo6Py8vLMHibKDhmsrKyBgYGPj4/LFyDKBhTW1tYoKCiWlpZkZGQuLi5PT09sbGxdXV2JiYnIyMjilpjPOj82Nja9vb3MzMzorrD46Ojxzs/02tvgjpDYaWz78fLknZ8WFhZHR0dXV1fdgYO1tbXUU1dAQEDpsbLQPULbe33XZGfSS0/acnXOMTflpaY1NTUQEBCPczCFAAAF10lEQVR4nO2ZCXPaTAyGDcsVCKc5wlEIIYSQNCFHk+bo//9dn7FX2tMYpu3wNfM+0+mM12tW70oryU4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA/xnL1Wp5c2wj/hpXm3cR01xfLo9tzF/g6lw0G/mYRtgV77PVsS36w2yElCdpNEXj+iuJXFfyDpHI/OyrhOvMI1CK/PHxFTLPUvgFxiK74vH52Ab+Nq+hclpFiOifqDR5LB9WxMvVsW38LW7YhWF4u4qDcnly+yi6KvmEIvyX085zlzz4wxi/zHdZYl6cHMm6P8GmKVV0P6w7M3VAK/+ywvNGqooT4b3XG9z3Cz76o05Pm1fO7cOopS9Zy42+LdTlnGYV9R+WjJJbnSyF7CjhnrXlecVReFHYaXBfmdLbS2FESa1YigeUaLXYqGzaVpXjF1kCV1wMha++34rQVDjOtHfAe7GvwpzaFfnMGV3XtFlV3bCpuzspXHI+Ed7ifrPeamSFkz3sJQ+09laYq9Fyp3LglAaqvllBMEhGhsnQYDA4DdLgRJMXKTNWryIkhWx04aFULZVKvZjFIvqvWhpZlnR4cj/mu7K1X9AuIoq0WFsOfOfltVgv8KDc6El8UY6fHqcp/NnIUhgdxxeqFrTWnXce3ZX7yQFN93l/hnJgkbOn3NsDRrDPk5F6P7mUOaYdFAeDdvAtxXpVEdIVRrG6NC3yR/+TvCu3887e+jo9PqGRov2D7FrtZylyI+631+RVmWPqraC4deEg8LLcT6Hkm2d9jV+mAMOsLXym2jTCgUyJ0vayuWy8eRQJtCmladDutDtBqxb4OKkconBue8VEM0O/5EPGR4rTAvvQ3oMz44e1BN6RJ7Wv9AwSH6bUxY/uIQqdKPPfTlzEBd8tH1zDKJD78pqPgXWoaB6jW9CpTaPqUU3JppvwAIXVlPUlliT22ANN4EzD9c82mGfY5g5NgaYB7WlQu0hrbR4PUcg73PLeLpnmsce4C3NOneV1bcbU+m298mt7RiufnlaDFJqNAxQ+ODYbTE0DOAXy4vapU0FBLuMD5yRrvcm1Be6ipr3fZyt0bTbgEEsc4CbekT3CQUEHc04Dbl7kCNFjIJvVQQo7toUpt5Nj5hR8LnbcLzyYT6io9axQ147iL39h8KEVi7zIfKydvv6WM9PFVP+feALd5warYz6hTtun8+Oq/dkydO6ncam/x2d+VqNz9OS/bfUjjh62n9Oe7WZOv2Y5DIy+xgyDLK6bHoU3ywif3HHa+jGcC4amQs7sfJI4FXOZk9cXzjPWygq/DS5voanw6nYt/3whxPnbh/VOTOv4N5Bj2Cr4rIdzLZcCGqCgYE+Z5bA2T0YLdW7Mtc5vN4/a1/xw87r9jMgjjbBbEWv9aykfNPe9ul7mMyUF9JzJnGu5FNgOKZo/ISHfb/vbTyUxpdO2eNf/XhFqDuWxinhjT6pY6Rfb7WJxfDYZPQ3NN70chRxHHOsZ0AilNKdHGjnPBCrhJk6j7j63Z1nsuppckeLnibXFO5ERxhFXp8Wcgr+wHlHFQkvrVFZlsOuV3258fOz4oK/REOdXhtG7oPeO9ILPqZ7DlgI55zzDD3Erq1f+7I80eyrM55vr7WyzOUyB+g06tOpNi76b8XuB1SKoqJ3TjLIMyoLWxeiVMbu52VvhLJ6e/fWsz2tSwef3X6fNVudaPsTJljIPDYwMo7kTyvm6O1thM2ym0NURMqX2nLRiomV5GuL337oziTaBgpKjVmYeSk12YeCUFfVvWQqvXzYx1zGzhNuYjy2XCc/qT/vTtvWqRgwnHeOVI/Ln/O5+csYZrzouxowXakrh82k0OaOuhytqsget0f3dvO97VxsUifF+NeNQauXq9lNiRLVaLtf3b4MBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBX5z+nS1btbz+NcwAAAABJRU5ErkJggg==" alt=""></div>
-        <input class="thanhtimkiem" type="text" placeholder="    nhập từ khóa cần tìm">
-        
-       
-        </div>
-        
-        </div>
-        
-        
-        
-        
-        <div class="Khuthu">
-         <div id="home" class="thanhchon" >Trang chủ</div>
-         <div class="thanhchon">Thể loại</div>
-         <div id="about" class="thanhchon">Thảo luận</div>
-         <div class="thanhchon">Tìm truyện</div>
-         <div class="thanhchon"><a href="https://www.facebook.com/trangvovanantromanhcutbu">Fanpage</a></div>
-        </div>
-        
-        
-        
-        
-            <div class="binhluan">
-        
-                         <h1 style="color:red;margin-left:300px;">Diễn Đàn Web</h1>
-                <form id="binhluan">
-                    <input type="text" name="user" placeholder="tên của bạn">
-                    <div class="chobinhluan">
-                        <input style="width: 900px;position: relative;padding: 15px;margin-bottom: 10px;" type="text" name="message" placeholder="bình luận">
-                    </div>
-                    <button type="submit">
-                        
-                    </button>
-        
-                    <ul id="cmtmoi"></ul>
-                </form>
-        
-            
-        
-        
-          
-                <div></div>
-        
-        
-        
+    /*
+    components.aboutScreen =`
+    <link rel="stylesheet" href="../CSS/forum.css">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <div id="Khudautrang">
+            <div><img style="width: 100px; ; height: 80px;margin-left: 40px;margin-right: 100px;" src="data:image/png;base64,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" alt=""></div>
+            <input class="thanhtimkiem" type="text" placeholder="    nhập từ khóa cần tìm">
+
+
             </div>
-   
-`
+
+            </div>
+
+
+
+
+            <div class="Khuthu">
+             <div id="home" class="thanhchon" >Trang chủ</div>
+             <div class="thanhchon">Thể loại</div>
+             <div id="about" class="thanhchon">Thảo luận</div>
+             <div class="thanhchon">Tìm truyện</div>
+             <div class="thanhchon"><a href="https://www.facebook.com/trangvovanantromanhcutbu">Fanpage</a></div>
+            </div>
+
+
+
+
+                <div class="binhluan">
+
+                             <h1 style="color:red;margin-left:300px;">Diễn Đàn Web</h1>
+                    <form id="binhluan">
+                        <input type="text" name="user" placeholder="tên của bạn">
+                        <div class="chobinhluan">
+                            <input style="width: 900px;position: relative;padding: 15px;margin-bottom: 10px;" type="text" name="message" placeholder="bình luận">
+                        </div>
+                        <button type="submit">
+
+                        </button>
+
+                        <ul id="cmtmoi"></ul>
+                    </form>
+
+
+
+
+
+                    <div></div>
+
+
+
+                </div>
+
+    `*/
+
+
+// components.thanhchuyenchapvinhvien = `
+// <
+// form id = "thanhchuyenchap" >
+//     <
+//     span >
+//     <
+//     label
+// for = "chapters" > Choose a chap: < /label> <
+//     input type = "submit"
+// value = "Submit" >
+//     <
+//     select id = "chapters"
+// name = "chapList"
+// form = "thanhchuyenchap" >
+//     <
+//     option value = "1" > Chap1 < /option> <
+//     option value = "2" > Chap2 < /option> <
+//     option value = "3" > Chap3 < /option> <
+//     /select> <
+//     /span> <
+//     /form>
+// `

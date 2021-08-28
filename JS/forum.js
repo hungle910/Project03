@@ -1,4 +1,4 @@
-const commentlist = document.getElementById('cmtmoi');
+const cmtList = document.getElementById('cmtmoi');
 const form = document.querySelector("#binhluan");
 
 function renderCmt(doc) {
@@ -11,32 +11,57 @@ function renderCmt(doc) {
 
     user.textContent = doc.data().user;
     cmt.textContent = doc.data().cmt;
-
+    
 
     li.appendChild(user);
     li.appendChild(cmt);
 
 
 
-    cmtList.appendChild(li)
+    cmtList.appendChild(li)      
 }
 
 
 
+ //  db.collection("comment").get().then((snapshot)=>{
+   //    snapshot.docs.forEach(doc =>{
+ //          renderCmt(doc)
+   //    })
+  // })
 
-db.collection("forum").get().then((snapshot) => {
-    snapshot.docs.forEach(doc => {
-        renderCmt(doc)
-    })
-})
-
-form.addEventListener('submit', (e) => {
+   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    db.collection('forum').add({
-        user: form.user.value.trim(),
-        cmt: form.cmt.value.trim(),
+    db.collection('comment').add({
+        user: form.user.value,
+        cmt: form.message.value,
     })
     form.user.value = "";
-    form.cmt.value = "";
+    form.message.value = "";
+    
+    
+})
 
+
+// saving data
+//form.addEventListener('submit', (e) => {
+ //   e.preventDefault();
+//    db.collection('comment').add({
+//        user: form.user.value.trim(),
+//        cmt: form.cmt.value.trim(),
+//    })
+//    form.user.value = "";
+//    form.cmt.value = "";
+
+//})
+
+// real-time listener
+// Khi có bất kỳ sự thay đổi dl nào trong DB thì onSnapshot sẽ được khởi chạy
+ db.collection("comment").onSnapshot(snapshot => {
+    let changes = snapshot.docChanges();
+    changes.forEach(change => {
+        console.log(change);
+        if (change.type == 'added') {
+            renderCmt(change.doc)
+        }
+    })
 })
