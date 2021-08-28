@@ -154,18 +154,29 @@ h3:hover {
     height: 1300px;
     padding-left: 200px;
 }
-
+#span2{
+    text-align: center;
+    display: flex;
+    margin-left: 300PX;
+}
 #thanhchuyenchap {
-    margin-top: 365px;
+    margin-top: 400px;
     position: fixed;
     background-color: darkslategrey;
     padding: 10px;
-    padding-right: 500px
+    padding-right: 500px;
+    width: 10000px;
 }
-
+#submit{
+    background-color: orange;
+   
+}
+#submit:hover{
+    background-color: skyblue;
+}
 select {
     width: 350px;
-    margin-left: 500px;
+    margin-left: 00px;
 }
 
 #sign-out-button {
